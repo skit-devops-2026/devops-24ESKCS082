@@ -1,9 +1,13 @@
 # Deployment - PlayBook (24ESKCS082)
 
-- Live URL: https://skit-devops-2026.github.io/devops-24ESKCS082/
-- Source: this repository (skit-devops-2026/devops-24ESKCS082), deployed with
-  GitHub Pages through the "Deploy to GitHub Pages" workflow
-  (.github/workflows/pages.yml) on every push to main.
+- Live URL: https://bhanu2701.github.io/playbook-live/
+- The organisation repository cannot enable GitHub Pages without an admin
+  (Settings -> Pages is restricted and the deployment workflow's
+  configure-pages step fails with "Resource not accessible by integration"),
+  so the site is deployed from the author's personal repository
+  https://github.com/bhanu2701/playbook-live (GitHub Pages, Deploy from a
+  branch: main, / root). The screenshot of the live site is
+  docs/deployment-screenshot.png.
 - Container image: ghcr.io/skit-devops-2026/devops-24eskcs082:latest
   (built and pushed by the CI workflow on every push to main).
 
